@@ -14,8 +14,6 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Product {
-
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "product_id")
@@ -30,7 +28,5 @@ public class Product {
 
     @Column
     private int stock;
-
-
 
 }
